@@ -1,0 +1,86 @@
+
+.ocultar-elemento{
+    display:none;
+}
+.mostrar{
+    display: inline-block;
+}
+.mostrar-grid{
+    display: inline-grid;
+}
+.bloquear{
+    opacity: 0.8;
+}
+.bloquear:hover{
+    cursor: not-allowed;
+    
+}
+
+.botones-grabar,.duracion{
+    display: contents;
+}
+#botones-grabar button{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#audio-mostrar,#audio-entrada{
+    width: 70%;
+}
+#botones-borrar{
+    width: 28%;
+    position: absolute;
+}
+.btn-borrar-audio,.btn-borrar-fila{
+   font-size: 52%;
+    width: 100%;
+    height: 26px;
+    padding: 0px;
+    margin-bottom: 2px;
+}
+#grabar-borrar-fila{
+    width: 50px;
+    font-size: 100%;
+    height: 50px;
+    float: right;
+    font-weight: 700;
+}
+@media screen and (max-width: 2600px) {
+	#audio-mostrar {
+    	width: 100%;
+	}
+	#botones-borrar {
+    	width: 100%;
+    	position: initial;
+	}
+    .mostrar-grid {
+    	display: initial;
+	}
+    .btn-borrar-audio, .btn-borrar-fila {
+    	font-size: 69%;
+    	width: 98px;
+    	height: 50px;
+    	padding: 0px;
+    	margin-bottom: 2px;
+	}
+    #boton-borrar-fila-derecho{
+    	float:right;
+        width:50px;
+        font-size: 100%;
+    	font-weight: 800;
+    }
+ 	
+    
+}
+.popup-image img{
+	width:70%important;
+}
+@media screen and (max-width:450px){
+	.popup-image img{
+		width:100%important;
+	}
+
+}
+
+.mfp-img{
+	width:65vw!important;
+}
